@@ -1,4 +1,6 @@
 package com.epam.mjc;
+import java.util.List;
+import java.util.stream.Collectors;
 
 public class InterfaceCreator {
 
@@ -7,4 +9,5 @@ public class InterfaceCreator {
                 .map(value -> value / divider)
                 .collect(Collectors.toList());
     }
+
 }
